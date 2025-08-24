@@ -1,0 +1,50 @@
+{
+  "name": "my-app",
+  "version": "1.0.0",
+  "private": true,
+  "dependencies": {
+    "@emotion/react": "^11.11.0",
+    "@emotion/styled": "^11.11.0",
+    "@mui/icons-material": "^5.14.0",
+    "@mui/material": "^5.14.0",
+    "@reduxjs/toolkit": "^1.9.5",
+    "axios": "^1.4.0",
+    "eslint-config-prettier": "^10.1.8",
+    "eslint-plugin-prettier": "^5.5.4",
+    "eslint-plugin-react": "^7.37.5",
+    "i18next": "^25.4.0",
+    "jwt-decode": "^3.1.2",
+    "prettier": "^3.6.2",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-i18next": "^15.7.0",
+    "react-redux": "^8.1.1",
+    "react-router-dom": "^6.12.1",
+    "react-scripts": "^5.0.1",
+    "stylis-plugin-rtl": "^2.1.1"
+  },
+  "scripts": {
+    "dev": "react-scripts start",
+    "build": "react-scripts build",
+    "lint": "eslint --ext .js,.jsx src",
+    "lint:fix": "eslint --ext .js,.jsx src --fix",
+    "format": "prettier --write \"src/**/*.{js,jsx,json,css,md}\""
+  },
+  "packageManager": "yarn@1.22.22+sha512.a6b2f7906b721bba3d67d4aff083df04dad64c399707841b7acf00f6b133b7ac24255f2652fa22ae3534329dc6180534e98d17432037ff6fd140556e2bb3137e",
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "eslint": "^9.33.0",
+    "eslint-plugin-react-hooks": "^5.2.0"
+  }
+}

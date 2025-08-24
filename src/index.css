@@ -1,0 +1,24 @@
+html {
+  overflow-y: scroll;
+}
+@font-face {
+  font-family: 'Alef-font';
+  src: url('./assets/fonts/Alef-VF[KSHD\,HGHT\,DOTS].ttf.ttf') format('truetype');
+}
+
+body {
+  display: grid;
+  background-color: #eee;
+  color: #333;
+  padding: 0;
+  margin: 0;
+}
+
+#logo {
+  font-family: 'Alef-font';
+  font-variation-settings:
+    'HGHT' 500,
+    'KSHD' 151,
+    'DOTS' 0.5;
+  font-feature-settings: 'kern', 'liga', 'calt';
+}
