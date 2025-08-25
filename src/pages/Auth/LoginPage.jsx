@@ -114,18 +114,19 @@ export default function LoginPage() {
           >
             <Box sx={{ display: 'flex', alignItems: 'center', gap: 2 }}>
               <Box
+                id="logo"
                 sx={{
-                  width: 56,
-                  height: 56,
+                  width: 50,
+                  height: 50,
                   borderRadius: 2,
                   display: 'flex',
                   alignItems: 'center',
                   justifyContent: 'center',
                   background: (theme) =>
                     `linear-gradient(135deg, ${theme.palette.primary.main}, ${theme.palette.secondary.main})`,
-                  color: (theme) => (theme.palette.mode === 'dark' ? '#071021' : '#fff'),
+                  color: (theme) => (theme.palette.mode !== 'dark' ? '#071021' : '#fff'),
                   fontWeight: 900,
-                  fontSize: 22,
+                  fontSize: 45,
                   boxShadow: (theme) =>
                     theme.palette.mode === 'dark'
                       ? `0 10px 28px ${theme.palette.primary.main}22`
@@ -137,8 +138,9 @@ export default function LoginPage() {
 
               <Box sx={{ display: 'flex', flexDirection: 'column', lineHeight: 1 }}>
                 <Typography
+                  id="logo"
                   variant="h6"
-                  sx={{ fontWeight: 800, fontSize: isXs ? '1rem' : '1.125rem' }}
+                  sx={{ fontWeight: 800, fontSize: isXs ? '1.2rem' : '1.5rem' }}
                 >
                   {t('brand')}
                 </Typography>
